@@ -9,6 +9,6 @@ def rename_files_in_directory(directory):
             os.rename(old_file_path, new_file_path)
             print(f'Renamed: "{filename}" to "{new_filename}"')
 
-# 使用示例
+
 directory_path = 'you own path'
 rename_files_in_directory(directory_path)
