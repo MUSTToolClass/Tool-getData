@@ -1,13 +1,11 @@
 import os
 import random
 
-# ==================可能需要修改的地方=====================================#
 g_root_path = "you own path" #根路径
-xmlfilepath = "Annotations"  # 标注文件存放路径
-saveBasePath = "ImageSets/Main/"  # ImageSets信息生成路径
+xmlfilepath = "Annotations"
+saveBasePath = "ImageSets/Main/"
 trainval_percent = 1
 train_percent = 0.8
-# ==================可能需要修改的地方=====================================#
 
 os.chdir(g_root_path)
 total_xml = os.listdir(xmlfilepath)

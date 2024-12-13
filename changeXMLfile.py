@@ -29,5 +29,5 @@ def update_xml_files_in_directory(directory):
             print(f'Updated: "{filename}"')
 
 
-directory_path = r'you own path'  # 替换为您的目标目录路径
+directory_path = r'you own path'
 update_xml_files_in_directory(directory_path)
